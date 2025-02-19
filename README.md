@@ -20,6 +20,9 @@ pip install pandas numpy nltk seaborn matplotlib scikit-learn wordcloud
 - `Fake.csv`: Contains fake news articles
 - `True.csv`: Contains true news articles
 - `df_manual`: A manually curated subset of data for testing
+- [Data Source](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)
+- `Pie Chart`: ![image](https://github.com/user-attachments/assets/f29fd729-124d-45dd-8d3a-34327701de6c)
+
 
 ## Data Preprocessing
 - Removed duplicate entries
@@ -40,8 +43,6 @@ The following models were trained and evaluated:
 
 ### 3. **Logistic Regression**
 - Accuracy: ~95% (test)
-
-## Visualizations
 
 ## Manual Testing
 A function `manual_testing(news)` allows users to input custom news articles for classification.
